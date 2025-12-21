@@ -1,3 +1,10 @@
+These applications were originally developed as Java Applets, designed to run in web browsers. Since browser support for Java Applets has been discontinued, each has been repackaged as a standalone desktop application.
+
+The **Repack** column links to each application's repository, which includes:
+- Source code updated for modern Java (14+)
+- Build instructions via `make jar` to create an executable JAR
+- Optional macOS app bundle via `make app`
+
 | # | App Name | Description | Source | Repack |
 |---|----------|-------------|--------|--------|
 | 1 | Affine Scaling | Animated affine scaling interior point method | `affine_animate/` | [`affine-sim`](https://github.com/pubino/affine-sim) |
