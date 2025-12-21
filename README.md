@@ -1,12 +1,12 @@
 These applications were originally developed as Java Applets, designed to run in web browsers. Since [support for Java Applets has been discontinued](https://inside.java/2025/12/03/applet-removal/), each has been repackaged as a standalone desktop application.
 
-The **Repack** column links to each application's repository, which includes:
+The **Repository** column links to each application's repository, which includes:
 - Source code updated for modern Java (14+)
 - Build instructions via `make jar` to create an executable JAR
 - Optional macOS app bundle via `make app`
 
-| # | App Name | Description | Source | Repack | Download |
-|---|----------|-------------|--------|--------|----------|
+| # | App Name | Description | Folder | Repository | Download |
+|---|----------|-------------|--------|------------|----------|
 | 1 | Affine Scaling | Animated affine scaling interior point method | `affine_animate/` | [`affine-sim`](https://github.com/pubino/affine-sim) | [zip](https://github.com/pubino/affine-sim/archive/refs/heads/main.zip) |
 | 2 | Analog Clock | Real-time analog clock display with hour, minute, second hands | `ORF201/clock/` | [`clock-sim`](https://github.com/pubino/clock-sim) | [zip](https://github.com/pubino/clock-sim/archive/refs/heads/main.zip) |
 | 3 | Belbruno Transfer | Low-energy lunar transfer trajectories (weak stability boundary) | `astro/galaxy/Belbruno.java` | [`belbruno-sim`](https://github.com/pubino/belbruno-sim) | [zip](https://github.com/pubino/belbruno-sim/archive/refs/heads/main.zip) |
