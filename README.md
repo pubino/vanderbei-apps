@@ -1,4 +1,4 @@
-| # | Source | App Name | Refactored App | Description |
+| # | Source | App Name | Repack | Description |
 |---|--------|----------|----------------|-------------|
 | 1 | `StarCharts/` | Star Charts/Constellations3D | [`starcharts-sim`](https://github.com/pubino/starcharts-sim) | 3D constellation visualization and star chart generator |
 | 2 | `twophase_animate/` | Two-Phase Simplex | [`twophase-sim`](https://github.com/pubino/twophase-sim) | Animated linear programming simplex algorithm solver |
