@@ -1,0 +1,84 @@
+[submodule "starcharts-sim"]
+	path = starcharts-sim
+	url = https://github.com/pubino/starcharts-sim.git
+[submodule "twophase-sim"]
+	path = twophase-sim
+	url = https://github.com/pubino/twophase-sim.git
+[submodule "pd-sim"]
+	path = pd-sim
+	url = https://github.com/pubino/pd-sim.git
+[submodule "affine-sim"]
+	path = affine-sim
+	url = https://github.com/pubino/affine-sim.git
+[submodule "terrass-sim"]
+	path = terrass-sim
+	url = https://github.com/pubino/terrass-sim.git
+[submodule "nettool-sim"]
+	path = nettool-sim
+	url = https://github.com/pubino/nettool-sim.git
+[submodule "shortpaths-sim"]
+	path = shortpaths-sim
+	url = https://github.com/pubino/shortpaths-sim.git
+[submodule "sail-sim"]
+	path = sail-sim
+	url = https://github.com/pubino/sail-sim.git
+[submodule "julia-sim"]
+	path = julia-sim
+	url = https://github.com/pubino/julia-sim.git
+[submodule "newsboy-sim"]
+	path = newsboy-sim
+	url = https://github.com/pubino/newsboy-sim.git
+[submodule "gravity-sim"]
+	path = gravity-sim
+	url = https://github.com/pubino/gravity-sim.git
+[submodule "maze-sim"]
+	path = maze-sim
+	url = https://github.com/pubino/maze-sim.git
+[submodule "clock-sim"]
+	path = clock-sim
+	url = https://github.com/pubino/clock-sim.git
+[submodule "gauss-sim"]
+	path = gauss-sim
+	url = https://github.com/pubino/gauss-sim.git
+[submodule "heat-sim"]
+	path = heat-sim
+	url = https://github.com/pubino/heat-sim.git
+[submodule "median-sim"]
+	path = median-sim
+	url = https://github.com/pubino/median-sim.git
+[submodule "integra-sim"]
+	path = integra-sim
+	url = https://github.com/pubino/integra-sim.git
+[submodule "galaxy-sim"]
+	path = galaxy-sim
+	url = https://github.com/pubino/galaxy-sim.git
+[submodule "galaxy-3d-sim"]
+	path = galaxy-3d-sim
+	url = https://github.com/pubino/galaxy-3d-sim.git
+[submodule "saturn-sim"]
+	path = saturn-sim
+	url = https://github.com/pubino/saturn-sim.git
+[submodule "belbruno-sim"]
+	path = belbruno-sim
+	url = https://github.com/pubino/belbruno-sim.git
+[submodule "starsystem-sim"]
+	path = starsystem-sim
+	url = https://github.com/pubino/starsystem-sim.git
+[submodule "janus-sim"]
+	path = janus-sim
+	url = https://github.com/pubino/janus-sim.git
+[submodule "l4l5-sim"]
+	path = l4l5-sim
+	url = https://github.com/pubino/l4l5-sim.git
+[submodule "cluster-sim"]
+	path = cluster-sim
+	url = https://github.com/pubino/cluster-sim.git
+[submodule "dustdisk-sim"]
+	path = dustdisk-sim
+	url = https://github.com/pubino/dustdisk-sim.git
+[submodule "stability-sim"]
+	path = stability-sim
+	url = https://github.com/pubino/stability-sim.git
+[submodule "dustatl2-sim"]
+	path = dustatl2-sim
+	url = https://github.com/pubino/dustatl2-sim.git
