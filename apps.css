@@ -232,6 +232,10 @@ a[href*="github.com"]:not(.github-badge) {
     gap: 4px;
 }
 
+a[href*="github.com"]:not(.github-badge):hover {
+    color: #00ff00;
+}
+
 a[href*="github.com"]:not(.github-badge)::before {
     content: "";
     display: inline-block;
