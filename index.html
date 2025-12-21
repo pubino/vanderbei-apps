@@ -14,12 +14,11 @@
     </header>
     <main>
         <div class="container">
-            <h1>Robert Vanderbei&#39;s Java Applications</h1>
-<table>
+            <table>
 <thead>
 <tr>
 <th>#</th>
-<th>Directory</th>
+<th>Source</th>
 <th>App Name</th>
 <th>Refactored App</th>
 <th>Description</th>
@@ -177,7 +176,7 @@
 <td><code>ORF201/median/</code></td>
 <td>Median</td>
 <td><a href="https://github.com/pubino/median-sim"><code>median-sim</code></a></td>
-<td>Weisfeld median algorithm visualization</td>
+<td>Weiszfeld median algorithm visualization</td>
 </tr>
 <tr>
 <td>23</td>
@@ -207,113 +206,100 @@
 <td><em>(trivial examples)</em></td>
 <td>Basic Java examples</td>
 </tr>
-</tbody></table>
-<h2>astro/galaxy/ - Standalone Astronomy Simulations</h2>
-<p>These are independent JApplet applications in <code>astro/galaxy/</code>. Each has its own <code>main()</code> method, dedicated Canvas class, and can run standalone.</p>
-<table>
-<thead>
 <tr>
-<th>#</th>
-<th>File</th>
-<th>App Name</th>
-<th>Refactored App</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1</td>
-<td><code>Galaxy.java</code></td>
+<td>27</td>
+<td><code>astro/galaxy/Galaxy.java</code></td>
 <td>Galaxy</td>
 <td><a href="https://github.com/pubino/galaxy-sim"><code>galaxy-sim</code></a></td>
-<td>N-body gravitational simulation with multiple integrators (Runge-Kutta, Hermite, Euler, etc.). Refactored version adds macOS native menu bar.</td>
+<td>N-body gravitational simulation with multiple integrators</td>
 </tr>
 <tr>
-<td>2</td>
-<td><code>Galaxy3d.java</code></td>
+<td>28</td>
+<td><code>astro/galaxy/Galaxy3d.java</code></td>
 <td>Galaxy 3D</td>
 <td><a href="https://github.com/pubino/galaxy-3d-sim"><code>galaxy-3d-sim</code></a></td>
-<td>3D version with leapfrog integrator</td>
+<td>3D galaxy simulation with leapfrog integrator</td>
 </tr>
 <tr>
-<td>3</td>
-<td><code>Saturn.java</code></td>
+<td>29</td>
+<td><code>astro/galaxy/Saturn.java</code></td>
 <td>Saturn</td>
 <td><a href="https://github.com/pubino/saturn-sim"><code>saturn-sim</code></a></td>
 <td>Saturn ring/moon dynamics with static electricity effects</td>
 </tr>
 <tr>
-<td>4</td>
-<td><code>Belbruno.java</code></td>
+<td>30</td>
+<td><code>astro/galaxy/Belbruno.java</code></td>
 <td>Belbruno Transfer</td>
 <td><a href="https://github.com/pubino/belbruno-sim"><code>belbruno-sim</code></a></td>
 <td>Low-energy lunar transfer trajectories (weak stability boundary)</td>
 </tr>
 <tr>
-<td>5</td>
-<td><code>StarSystem.java</code></td>
+<td>31</td>
+<td><code>astro/galaxy/StarSystem.java</code></td>
 <td>Star System</td>
 <td><a href="https://github.com/pubino/starsystem-sim"><code>starsystem-sim</code></a></td>
 <td>Binary/multi-star system with dust, zoom, mass/velocity ratios</td>
 </tr>
 <tr>
-<td>6</td>
-<td><code>Janus.java</code></td>
+<td>32</td>
+<td><code>astro/galaxy/Janus.java</code></td>
 <td>Janus-Epimetheus</td>
 <td><a href="https://github.com/pubino/janus-sim"><code>janus-sim</code></a></td>
 <td>Saturn&#39;s co-orbital moon pair horseshoe orbit simulation</td>
 </tr>
 <tr>
-<td>7</td>
-<td><code>L4L5.java</code></td>
+<td>33</td>
+<td><code>astro/galaxy/L4L5.java</code></td>
 <td>Lagrange L4/L5</td>
 <td><a href="https://github.com/pubino/l4l5-sim"><code>l4l5-sim</code></a></td>
 <td>Trojan asteroid dynamics at Lagrange points with eccentricity</td>
 </tr>
 <tr>
-<td>8</td>
-<td><code>Cluster.java</code></td>
+<td>34</td>
+<td><code>astro/galaxy/Cluster.java</code></td>
 <td>Star Cluster</td>
 <td><a href="https://github.com/pubino/cluster-sim"><code>cluster-sim</code></a></td>
 <td>Globular/open star cluster N-body simulation</td>
 </tr>
 <tr>
-<td>9</td>
-<td><code>DustDisk.java</code></td>
+<td>35</td>
+<td><code>astro/galaxy/DustDisk.java</code></td>
 <td>Dust Disk</td>
 <td><a href="https://github.com/pubino/dustdisk-sim"><code>dustdisk-sim</code></a></td>
 <td>Protoplanetary dust disk dynamics</td>
 </tr>
 <tr>
-<td>10</td>
-<td><code>EarthCoorbital.java</code></td>
+<td>36</td>
+<td><code>astro/galaxy/EarthCoorbital.java</code></td>
 <td>Earth Co-orbital</td>
 <td><em>(uses Janus)</em></td>
-<td>Earth co-orbital asteroid simulation. Note: <code>main()</code> creates <code>Janus</code>, not standalone.</td>
+<td>Earth co-orbital asteroid simulation</td>
 </tr>
 <tr>
-<td>11</td>
-<td><code>Hill.java</code></td>
+<td>37</td>
+<td><code>astro/galaxy/Hill.java</code></td>
 <td>Hill Sphere</td>
 <td><em>(mislabeled)</em></td>
-<td>File contains Galaxy class, not Hill. Duplicate of Galaxy.java.</td>
+<td>File contains Galaxy class, not Hill. Duplicate of Galaxy.java</td>
 </tr>
 <tr>
-<td>12</td>
-<td><code>Stability.java</code></td>
+<td>38</td>
+<td><code>astro/galaxy/Stability.java</code></td>
 <td>Orbital Stability</td>
 <td><a href="https://github.com/pubino/stability-sim"><code>stability-sim</code></a></td>
 <td>Floquet/monodromy matrix orbital stability analysis</td>
 </tr>
 <tr>
-<td>13</td>
-<td><code>Contraction.java</code></td>
+<td>39</td>
+<td><code>astro/galaxy/Contraction.java</code></td>
 <td>Contraction</td>
 <td><em>(CLI only)</em></td>
 <td>Command-line computational tool, not a graphical app</td>
 </tr>
 <tr>
-<td>14</td>
-<td><code>DustAtL2.java</code></td>
+<td>40</td>
+<td><code>astro/galaxy/DustAtL2.java</code></td>
 <td>Dust at L2</td>
 <td><a href="https://github.com/pubino/dustatl2-sim"><code>dustatl2-sim</code></a></td>
 <td>Dust particle dynamics at Sun-Earth L2 point</td>
