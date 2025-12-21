@@ -41,7 +41,7 @@ jobs:
           <body>
               <header>
                   <div class="container">
-                      <h1>Robert Vanderbei's Java Applications</h1>
+                      <h1><a href="https://vanderbei.princeton.edu">Professor Robert Vanderbei</a>'s Java Applications</h1>
                   </div>
               </header>
               <main>
