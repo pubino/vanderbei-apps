@@ -64,10 +64,6 @@ header h1 a:hover {
     opacity: 1;
 }
 
-.github-badge::before {
-    display: none;
-}
-
 /* Navigation */
 nav {
     margin-left: auto;
@@ -230,13 +226,13 @@ code {
 }
 
 /* GitHub link styling */
-a[href*="github.com"] {
+a[href*="github.com"]:not(.github-badge) {
     display: inline-flex;
     align-items: center;
     gap: 4px;
 }
 
-a[href*="github.com"]::before {
+a[href*="github.com"]:not(.github-badge)::before {
     content: "";
     display: inline-block;
     width: 16px;
