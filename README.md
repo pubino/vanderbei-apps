@@ -1,5 +1,7 @@
 These applications were originally developed as Java Applets, designed to run in web browsers. Since [support for Java Applets has been discontinued](https://inside.java/2025/12/03/applet-removal/), each has been repackaged as a standalone desktop application.
 
+**Quick start:** Download a zip, extract it, and run `make run` from the extracted folder.
+
 The **Repository** column links to each application's repository, which includes:
 - Source code updated for modern Java (14+)
 - Build instructions via `make jar` to create an executable JAR
