@@ -5,7 +5,7 @@ The **Repository** column links to each application's repository, which includes
 - Build instructions via `make jar` to create an executable JAR
 - Optional macOS app bundle via `make app`
 
-| # | App Name | Description | Folder | Repository | Download |
+| # | App Name | Description | Origin Folder | Repository | Download |
 |---|----------|-------------|--------|------------|----------|
 | <a id="affine-sim"></a>1 | Affine Scaling | Animated affine scaling interior point method | `affine_animate/` | [`affine-sim`](https://github.com/pubino/affine-sim) | [zip](https://github.com/pubino/affine-sim/archive/refs/heads/main.zip) |
 | <a id="clock-sim"></a>2 | Analog Clock | Real-time analog clock display with hour, minute, second hands | `ORF201/clock/` | [`clock-sim`](https://github.com/pubino/clock-sim) | [zip](https://github.com/pubino/clock-sim/archive/refs/heads/main.zip) |
