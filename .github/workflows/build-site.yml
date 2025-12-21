@@ -1,0 +1,74 @@
+name: Build Site
+
+on:
+  push:
+    paths:
+      - 'README.md'
+      - 'apps.css'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Convert README to HTML
+        run: |
+          npm install marked
+
+          node << 'EOF'
+          const { marked } = require('marked');
+          const fs = require('fs');
+
+          const readme = fs.readFileSync('README.md', 'utf8');
+          const content = marked.parse(readme);
+
+          const html = `<!DOCTYPE html>
+          <html lang="en">
+          <head>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>Robert Vanderbei's Java Applications</title>
+              <link rel="stylesheet" href="apps.css">
+          </head>
+          <body>
+              <header>
+                  <div class="container">
+                      <h1>Robert Vanderbei's Java Applications</h1>
+                  </div>
+              </header>
+              <main>
+                  <div class="container">
+                      ${content}
+                  </div>
+              </main>
+              <footer>
+                  <div class="container">
+                      <p>Based on original work by <a href="https://vanderbei.princeton.edu/">Robert Vanderbei</a>, Princeton University</p>
+                  </div>
+              </footer>
+          </body>
+          </html>`;
+
+          fs.writeFileSync('index.html', html);
+          EOF
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet index.html 2>/dev/null; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git commit -m "Regenerate index.html from README.md"
+          git push
