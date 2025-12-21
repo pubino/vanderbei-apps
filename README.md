@@ -23,20 +23,18 @@
 | 21 | `ORF201/heat/` | Heat Equation | [`heat-sim`](https://github.com/pubino/heat-sim) | Heat diffusion simulation with boundary conditions |
 | 22 | `ORF201/median/` | Median | [`median-sim`](https://github.com/pubino/median-sim) | Weiszfeld median algorithm visualization |
 | 23 | `ORF201/integra/` | Integration | [`integra-sim`](https://github.com/pubino/integra-sim) | Numerical integration with rectangle/trapezoidal rules |
-| 24 | `pivot/` | Pivot Tool | *(HTML/JS, not Java)* | Interactive simplex pivot visualization (HTML/JS based) |
-| 25 | `jotto/` | Jotto | *(HTML/JS, not Java)* | Word guessing game (HTML/JS based) |
-| 26 | `HelloWorld/` | Hello World | *(trivial examples)* | Basic Java examples |
-| 27 | `astro/galaxy/Galaxy.java` | Galaxy | [`galaxy-sim`](https://github.com/pubino/galaxy-sim) | N-body gravitational simulation with multiple integrators |
-| 28 | `astro/galaxy/Galaxy3d.java` | Galaxy 3D | [`galaxy-3d-sim`](https://github.com/pubino/galaxy-3d-sim) | 3D galaxy simulation with leapfrog integrator |
-| 29 | `astro/galaxy/Saturn.java` | Saturn | [`saturn-sim`](https://github.com/pubino/saturn-sim) | Saturn ring/moon dynamics with static electricity effects |
-| 30 | `astro/galaxy/Belbruno.java` | Belbruno Transfer | [`belbruno-sim`](https://github.com/pubino/belbruno-sim) | Low-energy lunar transfer trajectories (weak stability boundary) |
-| 31 | `astro/galaxy/StarSystem.java` | Star System | [`starsystem-sim`](https://github.com/pubino/starsystem-sim) | Binary/multi-star system with dust, zoom, mass/velocity ratios |
-| 32 | `astro/galaxy/Janus.java` | Janus-Epimetheus | [`janus-sim`](https://github.com/pubino/janus-sim) | Saturn's co-orbital moon pair horseshoe orbit simulation |
-| 33 | `astro/galaxy/L4L5.java` | Lagrange L4/L5 | [`l4l5-sim`](https://github.com/pubino/l4l5-sim) | Trojan asteroid dynamics at Lagrange points with eccentricity |
-| 34 | `astro/galaxy/Cluster.java` | Star Cluster | [`cluster-sim`](https://github.com/pubino/cluster-sim) | Globular/open star cluster N-body simulation |
-| 35 | `astro/galaxy/DustDisk.java` | Dust Disk | [`dustdisk-sim`](https://github.com/pubino/dustdisk-sim) | Protoplanetary dust disk dynamics |
-| 36 | `astro/galaxy/EarthCoorbital.java` | Earth Co-orbital | *(uses Janus)* | Earth co-orbital asteroid simulation |
-| 37 | `astro/galaxy/Hill.java` | Hill Sphere | *(mislabeled)* | File contains Galaxy class, not Hill. Duplicate of Galaxy.java |
-| 38 | `astro/galaxy/Stability.java` | Orbital Stability | [`stability-sim`](https://github.com/pubino/stability-sim) | Floquet/monodromy matrix orbital stability analysis |
-| 39 | `astro/galaxy/Contraction.java` | Contraction | *(CLI only)* | Command-line computational tool, not a graphical app |
-| 40 | `astro/galaxy/DustAtL2.java` | Dust at L2 | [`dustatl2-sim`](https://github.com/pubino/dustatl2-sim) | Dust particle dynamics at Sun-Earth L2 point |
+| 24 | `HelloWorld/` | Hello World | *(trivial examples)* | Basic Java examples |
+| 25 | `astro/galaxy/Galaxy.java` | Galaxy | [`galaxy-sim`](https://github.com/pubino/galaxy-sim) | N-body gravitational simulation with multiple integrators |
+| 26 | `astro/galaxy/Galaxy3d.java` | Galaxy 3D | [`galaxy-3d-sim`](https://github.com/pubino/galaxy-3d-sim) | 3D galaxy simulation with leapfrog integrator |
+| 27 | `astro/galaxy/Saturn.java` | Saturn | [`saturn-sim`](https://github.com/pubino/saturn-sim) | Saturn ring/moon dynamics with static electricity effects |
+| 28 | `astro/galaxy/Belbruno.java` | Belbruno Transfer | [`belbruno-sim`](https://github.com/pubino/belbruno-sim) | Low-energy lunar transfer trajectories (weak stability boundary) |
+| 29 | `astro/galaxy/StarSystem.java` | Star System | [`starsystem-sim`](https://github.com/pubino/starsystem-sim) | Binary/multi-star system with dust, zoom, mass/velocity ratios |
+| 30 | `astro/galaxy/Janus.java` | Janus-Epimetheus | [`janus-sim`](https://github.com/pubino/janus-sim) | Saturn's co-orbital moon pair horseshoe orbit simulation |
+| 31 | `astro/galaxy/L4L5.java` | Lagrange L4/L5 | [`l4l5-sim`](https://github.com/pubino/l4l5-sim) | Trojan asteroid dynamics at Lagrange points with eccentricity |
+| 32 | `astro/galaxy/Cluster.java` | Star Cluster | [`cluster-sim`](https://github.com/pubino/cluster-sim) | Globular/open star cluster N-body simulation |
+| 33 | `astro/galaxy/DustDisk.java` | Dust Disk | [`dustdisk-sim`](https://github.com/pubino/dustdisk-sim) | Protoplanetary dust disk dynamics |
+| 34 | `astro/galaxy/EarthCoorbital.java` | Earth Co-orbital | *(uses Janus)* | Earth co-orbital asteroid simulation |
+| 35 | `astro/galaxy/Hill.java` | Hill Sphere | *(mislabeled)* | File contains Galaxy class, not Hill. Duplicate of Galaxy.java |
+| 36 | `astro/galaxy/Stability.java` | Orbital Stability | [`stability-sim`](https://github.com/pubino/stability-sim) | Floquet/monodromy matrix orbital stability analysis |
+| 37 | `astro/galaxy/Contraction.java` | Contraction | *(CLI only)* | Command-line computational tool, not a graphical app |
+| 38 | `astro/galaxy/DustAtL2.java` | Dust at L2 | [`dustatl2-sim`](https://github.com/pubino/dustatl2-sim) | Dust particle dynamics at Sun-Earth L2 point |
