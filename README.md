@@ -1,16 +1,9 @@
 # Vanderbei Java Applications
 
-A collection of educational Java simulations and visualizations originally developed by [Robert Vanderbei](https://vanderbei.princeton.edu/) at Princeton University.
-
-## Live Site
-
-[https://pubino.github.io/vanderbei-apps/](https://pubino.github.io/vanderbei-apps/)
-
-## Applications
-
-This repository contains 28 refactored Java applications as git submodules:
+A collection of Java simulations and visualizations developed by [Professor Robert Vanderbei](https://vanderbei.princeton.edu/), Princeton University.
 
 ### Optimization & Operations Research
+
 - [twophase-sim](https://github.com/pubino/twophase-sim) - Two-phase simplex algorithm
 - [pd-sim](https://github.com/pubino/pd-sim) - Primal-dual simplex method
 - [affine-sim](https://github.com/pubino/affine-sim) - Affine scaling interior point method
@@ -34,7 +27,7 @@ This repository contains 28 refactored Java applications as git submodules:
 - [gravity-sim](https://github.com/pubino/gravity-sim) - Two-body gravity simulation
 - [starcharts-sim](https://github.com/pubino/starcharts-sim) - 3D constellation visualization
 
-### Mathematics & Education
+### Mathematics
 - [julia-sim](https://github.com/pubino/julia-sim) - Mandelbrot/Julia fractals
 - [gauss-sim](https://github.com/pubino/gauss-sim) - Gaussian elimination
 - [heat-sim](https://github.com/pubino/heat-sim) - Heat diffusion simulation
@@ -43,22 +36,3 @@ This repository contains 28 refactored Java applications as git submodules:
 - [maze-sim](https://github.com/pubino/maze-sim) - Maze generation/solving
 - [clock-sim](https://github.com/pubino/clock-sim) - Analog clock display
 - [sail-sim](https://github.com/pubino/sail-sim) - Sailing simulation
-
-## Building
-
-Each submodule has its own Makefile:
-
-```bash
-cd <submodule>
-make jar   # Build JAR file
-make run   # Run the application
-make app   # Build macOS .app bundle (optional)
-```
-
-## Requirements
-
-- Java 14+
-
-## License
-
-Based on original work by Robert Vanderbei, Princeton University.
