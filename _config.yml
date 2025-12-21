@@ -1,0 +1,17 @@
+title: Robert Vanderbei's Java Applications
+description: A collection of educational Java simulations and visualizations from Princeton University
+baseurl: ""
+url: "https://pubino.github.io/vanderbei-apps"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+exclude:
+  - Makefile
+  - "*.java"
+  - "*.class"
+  - "*.jar"
+  - .gitmodules
+  - "*-sim/"

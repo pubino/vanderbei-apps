@@ -1,3 +1,8 @@
+---
+layout: default
+title: Robert Vanderbei's Java Applications
+---
+
 # Robert Vanderbei's Java Applications
 
 | # | Directory | App Name | Refactored App | Description |
