@@ -53,6 +53,21 @@ header h1 a:hover {
     color: #e6edf6;
 }
 
+.github-badge {
+    margin-left: auto;
+    color: #fff;
+    opacity: 0.8;
+    transition: opacity 0.25s ease;
+}
+
+.github-badge:hover {
+    opacity: 1;
+}
+
+.github-badge::before {
+    display: none;
+}
+
 /* Navigation */
 nav {
     margin-left: auto;
