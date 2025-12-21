@@ -1,4 +1,4 @@
-These applications were originally developed as Java Applets, designed to run in web browsers. Since browser support for Java Applets has been discontinued, each has been repackaged as a standalone desktop application.
+These applications were originally developed as Java Applets, designed to run in web browsers. Since [support for Java Applets has been discontinued](https://inside.java/2025/12/03/applet-removal/), each has been repackaged as a standalone desktop application.
 
 The **Repack** column links to each application's repository, which includes:
 - Source code updated for modern Java (14+)
