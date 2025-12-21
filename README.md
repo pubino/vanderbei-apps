@@ -1,5 +1,3 @@
-# [Professor Robert Vanderbei](https://vanderbei.princeton.edu)'s Java Applications
-
 These applications were originally developed as Java Applets, designed to run in web browsers. Since [support for Java Applets has been discontinued](https://inside.java/2025/12/03/applet-removal/), each has been repackaged as a standalone desktop application.
 
 The **Repository** column links to each application's repository, which includes:
