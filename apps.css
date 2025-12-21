@@ -208,6 +208,11 @@ tr:hover {
     background-color: rgba(255, 170, 85, 0.08);
 }
 
+/* Anchor offset for deep links */
+td[id], a[id] {
+    scroll-margin-top: 20px;
+}
+
 /* Code/Directory styling */
 code {
     background-color: #222222;
