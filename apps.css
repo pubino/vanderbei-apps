@@ -29,8 +29,6 @@ body {
 /* Header */
 header {
     background: linear-gradient(180deg, rgba(225,115,5,0.82) 0%, rgba(145,75,5,0.82) 100%);
-    padding: 20px 0;
-    margin-bottom: 30px;
 }
 
 header .container {
