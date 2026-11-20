@@ -19,7 +19,9 @@ test("every submodule has a catalog row with source and download links", () => {
   }
 });
 
-test("the Dust Disk row launches the published browser simulator", () => {
-  const row = rows.find((candidate) => candidate.includes('id="dustdisk-sim"'));
-  assert.ok(row?.includes('<a href="https://pubino.github.io/dustdisk-sim/">Run in browser</a>'));
-});
+for (const slug of ["dustdisk-sim", "gravity-sim", "heat-sim"]) {
+  test(`the ${slug} row launches its browser simulator`, () => {
+    const row = rows.find((candidate) => candidate.includes(`id="${slug}"`));
+    assert.ok(row?.includes(`<a href="https://pubino.github.io/${slug}/">Run in browser</a>`));
+  });
+}
