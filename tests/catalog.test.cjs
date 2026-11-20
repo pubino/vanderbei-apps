@@ -19,7 +19,7 @@ test("every submodule has a catalog row with source and download links", () => {
   }
 });
 
-for (const slug of ["affine-sim", "belbruno-sim", "clock-sim", "cluster-sim", "dustatl2-sim", "dustdisk-sim", "galaxy-3d-sim", "galaxy-sim", "gauss-sim", "gravity-sim", "heat-sim", "integra-sim", "janus-sim", "julia-sim", "l4l5-sim", "maze-sim", "median-sim", "nettool-sim", "newsboy-sim", "pd-sim", "saturn-sim", "shortpaths-sim", "stability-sim", "starsystem-sim", "twophase-sim"]) {
+for (const slug of ["affine-sim", "belbruno-sim", "clock-sim", "cluster-sim", "dustatl2-sim", "dustdisk-sim", "galaxy-3d-sim", "galaxy-sim", "gauss-sim", "gravity-sim", "heat-sim", "integra-sim", "janus-sim", "julia-sim", "l4l5-sim", "maze-sim", "median-sim", "nettool-sim", "newsboy-sim", "pd-sim", "sail-sim", "saturn-sim", "shortpaths-sim", "stability-sim", "starcharts-sim", "starsystem-sim", "twophase-sim"]) {
   test(`the ${slug} row launches its browser simulator`, () => {
     const row = rows.find((candidate) => candidate.includes(`id="${slug}"`));
     assert.ok(row?.includes(`<a href="https://pubino.github.io/${slug}/">Run in browser</a>`));
