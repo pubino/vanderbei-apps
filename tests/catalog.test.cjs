@@ -19,7 +19,7 @@ test("every submodule has a catalog row with source and download links", () => {
   }
 });
 
-for (const slug of ["dustdisk-sim", "gravity-sim", "heat-sim", "integra-sim", "l4l5-sim", "median-sim", "starsystem-sim"]) {
+for (const slug of ["dustdisk-sim", "gauss-sim", "gravity-sim", "heat-sim", "integra-sim", "julia-sim", "l4l5-sim", "median-sim", "starsystem-sim"]) {
   test(`the ${slug} row launches its browser simulator`, () => {
     const row = rows.find((candidate) => candidate.includes(`id="${slug}"`));
     assert.ok(row?.includes(`<a href="https://pubino.github.io/${slug}/">Run in browser</a>`));
