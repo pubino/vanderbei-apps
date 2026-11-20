@@ -17,6 +17,13 @@ test("the header explains how to open the browser ports and find the Java origin
     ["Application", "Description", "Java project"]);
 });
 
+test("the landing page groups the table in the light app layout", () => {
+  assert.match(html, /<meta name="color-scheme" content="light">/);
+  assert.match(html, /<link rel="stylesheet" href="apps.css">/);
+  assert.match(html, /<main class="panel" aria-label="Application catalog">\s*<table>/);
+  assert.match(html, /<p class="eyebrow">[\s\S]*?Princeton University<\/a><\/p>/);
+});
+
 test("every submodule has exactly one catalog row and stable anchor", () => {
   const ids = [...html.matchAll(/<a id="([-\w]+)"><\/a>/g)].map(([, id]) => id);
   assert.deepEqual(ids.sort(), [...slugs].sort());
