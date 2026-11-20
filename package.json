@@ -1,0 +1,11 @@
+{
+  "name": "vanderbei-apps",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build-site.cjs",
+    "test": "node --test tests/catalog.test.cjs"
+  },
+  "devDependencies": {
+    "marked": "18.2.1"
+  }
+}

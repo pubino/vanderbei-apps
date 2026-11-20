@@ -3,13 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Robert Vanderbei's Java Applications</title>
+    <title>Robert Vanderbei's Applications</title>
     <link rel="stylesheet" href="apps.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1><a href="https://vanderbei.princeton.edu">Professor Robert Vanderbei</a>'s Java Applications</h1>
+            <div class="heading">
+                <h1>Robert Vanderbei’s Applications</h1>
+                <div class="guidance"><p>Choose an application below to run its Python browser port. Visit its Java project page for the original source and desktop build instructions.</p>
+</div>
+            </div>
             <a href="https://github.com/pubino/vanderbei-apps" class="github-badge" title="View on GitHub">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
             </a>
@@ -17,248 +21,153 @@
     </header>
     <main>
         <div class="container">
-            <p>These applications were originally developed as Java Applets, designed to run in web browsers. Since <a href="https://inside.java/2025/12/03/applet-removal/">support for Java Applets has been discontinued</a>, each has been repackaged as a standalone desktop application.</p>
-<p><strong>Quick start:</strong> Download a zip, extract it, and run <code>make run</code> from the extracted folder.</p>
-<p>The <strong>Repository</strong> column links to each application&#39;s repository, which includes:</p>
-<ul>
-<li>Source code updated for modern Java (14+)</li>
-<li>Build instructions via <code>make jar</code> to create an executable JAR</li>
-<li>Optional macOS app bundle via <code>make app</code></li>
-</ul>
-<table>
+            <table>
 <thead>
 <tr>
-<th>#</th>
-<th>App Name</th>
+<th>Application</th>
 <th>Description</th>
-<th>Origin Folder</th>
-<th>Repository</th>
-<th>Download</th>
+<th>Java project</th>
 </tr>
 </thead>
 <tbody><tr>
-<td><a id="affine-sim"></a>1</td>
-<td>Affine Scaling<br><a href="https://pubino.github.io/affine-sim/">Run in browser</a></td>
+<td><a id="affine-sim"></a><a href="https://pubino.github.io/affine-sim/">Affine Scaling</a></td>
 <td>Animated affine scaling interior point method</td>
-<td><code>affine_animate/</code></td>
-<td><a href="https://github.com/pubino/affine-sim"><code>affine-sim</code></a></td>
-<td><a href="https://github.com/pubino/affine-sim/archive/refs/heads/main.zip">zip</a></td>
+<td><a href="https://github.com/pubino/affine-sim">Project page</a><br><a href="https://github.com/pubino/affine-sim/archive/refs/heads/main.zip">Source ZIP</a></td>
 </tr>
 <tr>
-<td><a id="clock-sim"></a>2</td>
-<td>Analog Clock<br><a href="https://pubino.github.io/clock-sim/">Run in browser</a></td>
+<td><a id="clock-sim"></a><a href="https://pubino.github.io/clock-sim/">Analog Clock</a></td>
 <td>Real-time analog clock display with hour, minute, second hands</td>
-<td><code>ORF201/clock/</code></td>
-<td><a href="https://github.com/pubino/clock-sim"><code>clock-sim</code></a></td>
-<td><a href="https://github.com/pubino/clock-sim/archive/refs/heads/main.zip">zip</a></td>
+<td><a href="https://github.com/pubino/clock-sim">Project page</a><br><a href="https://github.com/pubino/clock-sim/archive/refs/heads/main.zip">Source ZIP</a></td>
 </tr>
 <tr>
-<td><a id="belbruno-sim"></a>3</td>
-<td>Belbruno Transfer<br><a href="https://pubino.github.io/belbruno-sim/">Run in browser</a></td>
+<td><a id="belbruno-sim"></a><a href="https://pubino.github.io/belbruno-sim/">Belbruno Transfer</a></td>
 <td>Low-energy lunar transfer trajectories (weak stability boundary)</td>
-<td><code>astro/galaxy/Belbruno.java</code></td>
-<td><a href="https://github.com/pubino/belbruno-sim"><code>belbruno-sim</code></a></td>
-<td><a href="https://github.com/pubino/belbruno-sim/archive/refs/heads/main.zip">zip</a></td>
+<td><a href="https://github.com/pubino/belbruno-sim">Project page</a><br><a href="https://github.com/pubino/belbruno-sim/archive/refs/heads/main.zip">Source ZIP</a></td>
 </tr>
 <tr>
-<td><a id="dustatl2-sim"></a>4</td>
-<td>Dust at L2<br><a href="https://pubino.github.io/dustatl2-sim/">Run in browser</a></td>
+<td><a id="dustatl2-sim"></a><a href="https://pubino.github.io/dustatl2-sim/">Dust at L2</a></td>
 <td>Dust particle dynamics at Sun-Earth L2 point</td>
-<td><code>astro/galaxy/DustAtL2.java</code></td>
-<td><a href="https://github.com/pubino/dustatl2-sim"><code>dustatl2-sim</code></a></td>
-<td><a href="https://github.com/pubino/dustatl2-sim/archive/refs/heads/main.zip">zip</a></td>
+<td><a href="https://github.com/pubino/dustatl2-sim">Project page</a><br><a href="https://github.com/pubino/dustatl2-sim/archive/refs/heads/main.zip">Source ZIP</a></td>
 </tr>
 <tr>
-<td><a id="dustdisk-sim"></a>5</td>
-<td>Dust Disk<br><a href="https://pubino.github.io/dustdisk-sim/">Run in browser</a></td>
+<td><a id="dustdisk-sim"></a><a href="https://pubino.github.io/dustdisk-sim/">Dust Disk</a></td>
 <td>Protoplanetary dust disk dynamics</td>
-<td><code>astro/galaxy/DustDisk.java</code></td>
-<td><a href="https://github.com/pubino/dustdisk-sim"><code>dustdisk-sim</code></a></td>
-<td><a href="https://github.com/pubino/dustdisk-sim/archive/refs/heads/main.zip">zip</a></td>
+<td><a href="https://github.com/pubino/dustdisk-sim">Project page</a><br><a href="https://github.com/pubino/dustdisk-sim/archive/refs/heads/main.zip">Source ZIP</a></td>
 </tr>
 <tr>
-<td><a id="galaxy-sim"></a>6</td>
-<td>Galaxy<br><a href="https://pubino.github.io/galaxy-sim/">Run in browser</a></td>
+<td><a id="galaxy-sim"></a><a href="https://pubino.github.io/galaxy-sim/">Galaxy</a></td>
 <td>N-body gravitational simulation with multiple integrators</td>
-<td><code>astro/galaxy/Galaxy.java</code></td>
-<td><a href="https://github.com/pubino/galaxy-sim"><code>galaxy-sim</code></a></td>
-<td><a href="https://github.com/pubino/galaxy-sim/archive/refs/heads/main.zip">zip</a></td>
+<td><a href="https://github.com/pubino/galaxy-sim">Project page</a><br><a href="https://github.com/pubino/galaxy-sim/archive/refs/heads/main.zip">Source ZIP</a></td>
 </tr>
 <tr>
-<td><a id="galaxy-3d-sim"></a>7</td>
-<td>Galaxy 3D<br><a href="https://pubino.github.io/galaxy-3d-sim/">Run in browser</a></td>
+<td><a id="galaxy-3d-sim"></a><a href="https://pubino.github.io/galaxy-3d-sim/">Galaxy 3D</a></td>
 <td>3D galaxy simulation with leapfrog integrator</td>
-<td><code>astro/galaxy/Galaxy3d.java</code></td>
-<td><a href="https://github.com/pubino/galaxy-3d-sim"><code>galaxy-3d-sim</code></a></td>
-<td><a href="https://github.com/pubino/galaxy-3d-sim/archive/refs/heads/main.zip">zip</a></td>
+<td><a href="https://github.com/pubino/galaxy-3d-sim">Project page</a><br><a href="https://github.com/pubino/galaxy-3d-sim/archive/refs/heads/main.zip">Source ZIP</a></td>
 </tr>
 <tr>
-<td><a id="gauss-sim"></a>8</td>
-<td>Gaussian Elimination<br><a href="https://pubino.github.io/gauss-sim/">Run in browser</a></td>
+<td><a id="gauss-sim"></a><a href="https://pubino.github.io/gauss-sim/">Gaussian Elimination</a></td>
 <td>Interactive Gaussian elimination with row operations</td>
-<td><code>CIV201/gauss_elim/</code></td>
-<td><a href="https://github.com/pubino/gauss-sim"><code>gauss-sim</code></a></td>
-<td><a href="https://github.com/pubino/gauss-sim/archive/refs/heads/main.zip">zip</a></td>
+<td><a href="https://github.com/pubino/gauss-sim">Project page</a><br><a href="https://github.com/pubino/gauss-sim/archive/refs/heads/main.zip">Source ZIP</a></td>
 </tr>
 <tr>
-<td><a id="gravity-sim"></a>9</td>
-<td>Gravity Simulator<br><a href="https://pubino.github.io/gravity-sim/">Run in browser</a></td>
+<td><a id="gravity-sim"></a><a href="https://pubino.github.io/gravity-sim/">Gravity Simulator</a></td>
 <td>Two-body gravitational simulation (Earth-Moon orbital dynamics)</td>
-<td><code>ORF201/gravity/</code></td>
-<td><a href="https://github.com/pubino/gravity-sim"><code>gravity-sim</code></a></td>
-<td><a href="https://github.com/pubino/gravity-sim/archive/refs/heads/main.zip">zip</a></td>
+<td><a href="https://github.com/pubino/gravity-sim">Project page</a><br><a href="https://github.com/pubino/gravity-sim/archive/refs/heads/main.zip">Source ZIP</a></td>
 </tr>
 <tr>
-<td><a id="heat-sim"></a>10</td>
-<td>Heat Equation<br><a href="https://pubino.github.io/heat-sim/">Run in browser</a></td>
+<td><a id="heat-sim"></a><a href="https://pubino.github.io/heat-sim/">Heat Equation</a></td>
 <td>Heat diffusion simulation with boundary conditions</td>
-<td><code>ORF201/heat/</code></td>
-<td><a href="https://github.com/pubino/heat-sim"><code>heat-sim</code></a></td>
-<td><a href="https://github.com/pubino/heat-sim/archive/refs/heads/main.zip">zip</a></td>
+<td><a href="https://github.com/pubino/heat-sim">Project page</a><br><a href="https://github.com/pubino/heat-sim/archive/refs/heads/main.zip">Source ZIP</a></td>
 </tr>
 <tr>
-<td><a id="integra-sim"></a>11</td>
-<td>Integration<br><a href="https://pubino.github.io/integra-sim/">Run in browser</a></td>
+<td><a id="integra-sim"></a><a href="https://pubino.github.io/integra-sim/">Integration</a></td>
 <td>Numerical integration with rectangle/trapezoidal rules</td>
-<td><code>ORF201/integra/</code></td>
-<td><a href="https://github.com/pubino/integra-sim"><code>integra-sim</code></a></td>
-<td><a href="https://github.com/pubino/integra-sim/archive/refs/heads/main.zip">zip</a></td>
+<td><a href="https://github.com/pubino/integra-sim">Project page</a><br><a href="https://github.com/pubino/integra-sim/archive/refs/heads/main.zip">Source ZIP</a></td>
 </tr>
 <tr>
-<td><a id="janus-sim"></a>12</td>
-<td>Janus-Epimetheus<br><a href="https://pubino.github.io/janus-sim/">Run in browser</a></td>
+<td><a id="janus-sim"></a><a href="https://pubino.github.io/janus-sim/">Janus-Epimetheus</a></td>
 <td>Saturn&#39;s co-orbital moon pair horseshoe orbit simulation</td>
-<td><code>astro/galaxy/Janus.java</code></td>
-<td><a href="https://github.com/pubino/janus-sim"><code>janus-sim</code></a></td>
-<td><a href="https://github.com/pubino/janus-sim/archive/refs/heads/main.zip">zip</a></td>
+<td><a href="https://github.com/pubino/janus-sim">Project page</a><br><a href="https://github.com/pubino/janus-sim/archive/refs/heads/main.zip">Source ZIP</a></td>
 </tr>
 <tr>
-<td><a id="julia-sim"></a>13</td>
-<td>Julia Set<br><a href="https://pubino.github.io/julia-sim/">Run in browser</a></td>
+<td><a id="julia-sim"></a><a href="https://pubino.github.io/julia-sim/">Julia Set</a></td>
 <td>Mandelbrot/Julia set fractal visualization</td>
-<td><code>julia/</code></td>
-<td><a href="https://github.com/pubino/julia-sim"><code>julia-sim</code></a></td>
-<td><a href="https://github.com/pubino/julia-sim/archive/refs/heads/main.zip">zip</a></td>
+<td><a href="https://github.com/pubino/julia-sim">Project page</a><br><a href="https://github.com/pubino/julia-sim/archive/refs/heads/main.zip">Source ZIP</a></td>
 </tr>
 <tr>
-<td><a id="l4l5-sim"></a>14</td>
-<td>Lagrange L4/L5<br><a href="https://pubino.github.io/l4l5-sim/">Run in browser</a></td>
+<td><a id="l4l5-sim"></a><a href="https://pubino.github.io/l4l5-sim/">Lagrange L4/L5</a></td>
 <td>Trojan asteroid dynamics at Lagrange points with eccentricity</td>
-<td><code>astro/galaxy/L4L5.java</code></td>
-<td><a href="https://github.com/pubino/l4l5-sim"><code>l4l5-sim</code></a></td>
-<td><a href="https://github.com/pubino/l4l5-sim/archive/refs/heads/main.zip">zip</a></td>
+<td><a href="https://github.com/pubino/l4l5-sim">Project page</a><br><a href="https://github.com/pubino/l4l5-sim/archive/refs/heads/main.zip">Source ZIP</a></td>
 </tr>
 <tr>
-<td><a id="maze-sim"></a>15</td>
-<td>Maze Generator<br><a href="https://pubino.github.io/maze-sim/">Run in browser</a></td>
+<td><a id="maze-sim"></a><a href="https://pubino.github.io/maze-sim/">Maze Generator</a></td>
 <td>Maze generation and solving visualization</td>
-<td><code>ORF201/maze/</code></td>
-<td><a href="https://github.com/pubino/maze-sim"><code>maze-sim</code></a></td>
-<td><a href="https://github.com/pubino/maze-sim/archive/refs/heads/main.zip">zip</a></td>
+<td><a href="https://github.com/pubino/maze-sim">Project page</a><br><a href="https://github.com/pubino/maze-sim/archive/refs/heads/main.zip">Source ZIP</a></td>
 </tr>
 <tr>
-<td><a id="median-sim"></a>16</td>
-<td>Median<br><a href="https://pubino.github.io/median-sim/">Run in browser</a></td>
+<td><a id="median-sim"></a><a href="https://pubino.github.io/median-sim/">Median</a></td>
 <td>Weiszfeld median algorithm visualization</td>
-<td><code>ORF201/median/</code></td>
-<td><a href="https://github.com/pubino/median-sim"><code>median-sim</code></a></td>
-<td><a href="https://github.com/pubino/median-sim/archive/refs/heads/main.zip">zip</a></td>
+<td><a href="https://github.com/pubino/median-sim">Project page</a><br><a href="https://github.com/pubino/median-sim/archive/refs/heads/main.zip">Source ZIP</a></td>
 </tr>
 <tr>
-<td><a id="nettool-sim"></a>17</td>
-<td>Network Simplex<br><a href="https://pubino.github.io/nettool-sim/">Run in browser</a></td>
+<td><a id="nettool-sim"></a><a href="https://pubino.github.io/nettool-sim/">Network Simplex</a></td>
 <td>Network flow optimization with manual tree pivots</td>
-<td><code>network/nettool/</code></td>
-<td><a href="https://github.com/pubino/nettool-sim"><code>nettool-sim</code></a></td>
-<td><a href="https://github.com/pubino/nettool-sim/archive/refs/heads/main.zip">zip</a></td>
+<td><a href="https://github.com/pubino/nettool-sim">Project page</a><br><a href="https://github.com/pubino/nettool-sim/archive/refs/heads/main.zip">Source ZIP</a></td>
 </tr>
 <tr>
-<td><a id="newsboy-sim"></a>18</td>
-<td>Newsboy Problem<br><a href="https://pubino.github.io/newsboy-sim/">Run in browser</a></td>
+<td><a id="newsboy-sim"></a><a href="https://pubino.github.io/newsboy-sim/">Newsboy Problem</a></td>
 <td>Operations research newsvendor problem simulator</td>
-<td><code>newsboy/</code></td>
-<td><a href="https://github.com/pubino/newsboy-sim"><code>newsboy-sim</code></a></td>
-<td><a href="https://github.com/pubino/newsboy-sim/archive/refs/heads/main.zip">zip</a></td>
+<td><a href="https://github.com/pubino/newsboy-sim">Project page</a><br><a href="https://github.com/pubino/newsboy-sim/archive/refs/heads/main.zip">Source ZIP</a></td>
 </tr>
 <tr>
-<td><a id="stability-sim"></a>19</td>
-<td>Orbital Stability<br><a href="https://pubino.github.io/stability-sim/">Run in browser</a></td>
+<td><a id="stability-sim"></a><a href="https://pubino.github.io/stability-sim/">Orbital Stability</a></td>
 <td>Floquet/monodromy matrix orbital stability analysis</td>
-<td><code>astro/galaxy/Stability.java</code></td>
-<td><a href="https://github.com/pubino/stability-sim"><code>stability-sim</code></a></td>
-<td><a href="https://github.com/pubino/stability-sim/archive/refs/heads/main.zip">zip</a></td>
+<td><a href="https://github.com/pubino/stability-sim">Project page</a><br><a href="https://github.com/pubino/stability-sim/archive/refs/heads/main.zip">Source ZIP</a></td>
 </tr>
 <tr>
-<td><a id="pd-sim"></a>20</td>
-<td>Primal-Dual Simplex<br><a href="https://pubino.github.io/pd-sim/">Run in browser</a></td>
+<td><a id="pd-sim"></a><a href="https://pubino.github.io/pd-sim/">Primal-Dual Simplex</a></td>
 <td>Animated primal-dual simplex method for LP</td>
-<td><code>pd_animate/</code></td>
-<td><a href="https://github.com/pubino/pd-sim"><code>pd-sim</code></a></td>
-<td><a href="https://github.com/pubino/pd-sim/archive/refs/heads/main.zip">zip</a></td>
+<td><a href="https://github.com/pubino/pd-sim">Project page</a><br><a href="https://github.com/pubino/pd-sim/archive/refs/heads/main.zip">Source ZIP</a></td>
 </tr>
 <tr>
-<td><a id="sail-sim"></a>21</td>
-<td>Sailing Simulator<br><a href="https://pubino.github.io/sail-sim/">Run in browser</a></td>
+<td><a id="sail-sim"></a><a href="https://pubino.github.io/sail-sim/">Sailing Simulator</a></td>
 <td>Princeton sailing simulation with graphics</td>
-<td><code>sail/</code></td>
-<td><a href="https://github.com/pubino/sail-sim"><code>sail-sim</code></a></td>
-<td><a href="https://github.com/pubino/sail-sim/archive/refs/heads/main.zip">zip</a></td>
+<td><a href="https://github.com/pubino/sail-sim">Project page</a><br><a href="https://github.com/pubino/sail-sim/archive/refs/heads/main.zip">Source ZIP</a></td>
 </tr>
 <tr>
-<td><a id="saturn-sim"></a>22</td>
-<td>Saturn<br><a href="https://pubino.github.io/saturn-sim/">Run in browser</a></td>
+<td><a id="saturn-sim"></a><a href="https://pubino.github.io/saturn-sim/">Saturn</a></td>
 <td>Saturn ring/moon dynamics with static electricity effects</td>
-<td><code>astro/galaxy/Saturn.java</code></td>
-<td><a href="https://github.com/pubino/saturn-sim"><code>saturn-sim</code></a></td>
-<td><a href="https://github.com/pubino/saturn-sim/archive/refs/heads/main.zip">zip</a></td>
+<td><a href="https://github.com/pubino/saturn-sim">Project page</a><br><a href="https://github.com/pubino/saturn-sim/archive/refs/heads/main.zip">Source ZIP</a></td>
 </tr>
 <tr>
-<td><a id="shortpaths-sim"></a>23</td>
-<td>Shortest Paths<br><a href="https://pubino.github.io/shortpaths-sim/">Run in browser</a></td>
+<td><a id="shortpaths-sim"></a><a href="https://pubino.github.io/shortpaths-sim/">Shortest Paths</a></td>
 <td>Dijkstra&#39;s shortest path algorithm visualization</td>
-<td><code>network/shortpaths/</code></td>
-<td><a href="https://github.com/pubino/shortpaths-sim"><code>shortpaths-sim</code></a></td>
-<td><a href="https://github.com/pubino/shortpaths-sim/archive/refs/heads/main.zip">zip</a></td>
+<td><a href="https://github.com/pubino/shortpaths-sim">Project page</a><br><a href="https://github.com/pubino/shortpaths-sim/archive/refs/heads/main.zip">Source ZIP</a></td>
 </tr>
 <tr>
-<td><a id="starcharts-sim"></a>24</td>
-<td>Star Charts/Constellations3D<br><a href="https://pubino.github.io/starcharts-sim/">Run in browser</a></td>
+<td><a id="starcharts-sim"></a><a href="https://pubino.github.io/starcharts-sim/">Star Charts/Constellations3D</a></td>
 <td>3D constellation visualization and star chart generator</td>
-<td><code>StarCharts/</code></td>
-<td><a href="https://github.com/pubino/starcharts-sim"><code>starcharts-sim</code></a></td>
-<td><a href="https://github.com/pubino/starcharts-sim/archive/refs/heads/main.zip">zip</a></td>
+<td><a href="https://github.com/pubino/starcharts-sim">Project page</a><br><a href="https://github.com/pubino/starcharts-sim/archive/refs/heads/main.zip">Source ZIP</a></td>
 </tr>
 <tr>
-<td><a id="cluster-sim"></a>25</td>
-<td>Star Cluster<br><a href="https://pubino.github.io/cluster-sim/">Run in browser</a></td>
+<td><a id="cluster-sim"></a><a href="https://pubino.github.io/cluster-sim/">Star Cluster</a></td>
 <td>Globular/open star cluster N-body simulation</td>
-<td><code>astro/galaxy/Cluster.java</code></td>
-<td><a href="https://github.com/pubino/cluster-sim"><code>cluster-sim</code></a></td>
-<td><a href="https://github.com/pubino/cluster-sim/archive/refs/heads/main.zip">zip</a></td>
+<td><a href="https://github.com/pubino/cluster-sim">Project page</a><br><a href="https://github.com/pubino/cluster-sim/archive/refs/heads/main.zip">Source ZIP</a></td>
 </tr>
 <tr>
-<td><a id="starsystem-sim"></a>26</td>
-<td>Star System<br><a href="https://pubino.github.io/starsystem-sim/">Run in browser</a></td>
+<td><a id="starsystem-sim"></a><a href="https://pubino.github.io/starsystem-sim/">Star System</a></td>
 <td>Sun, Jupiter, and Saturn with a dust ring and adjustable mass and velocity ratios</td>
-<td><code>astro/galaxy/StarSystem.java</code></td>
-<td><a href="https://github.com/pubino/starsystem-sim"><code>starsystem-sim</code></a></td>
-<td><a href="https://github.com/pubino/starsystem-sim/archive/refs/heads/main.zip">zip</a></td>
+<td><a href="https://github.com/pubino/starsystem-sim">Project page</a><br><a href="https://github.com/pubino/starsystem-sim/archive/refs/heads/main.zip">Source ZIP</a></td>
 </tr>
 <tr>
-<td><a id="terrass-sim"></a>27</td>
-<td>Territory Assignment</td>
+<td><a id="terrass-sim"></a><a href="https://pubino.github.io/terrass-sim/">Territory Assignment</a></td>
 <td>Territorial/geographic assignment optimization tool</td>
-<td><code>terrass/</code></td>
-<td><a href="https://github.com/pubino/terrass-sim"><code>terrass-sim</code></a></td>
-<td><a href="https://github.com/pubino/terrass-sim/archive/refs/heads/main.zip">zip</a></td>
+<td><a href="https://github.com/pubino/terrass-sim">Project page</a><br><a href="https://github.com/pubino/terrass-sim/archive/refs/heads/main.zip">Source ZIP</a></td>
 </tr>
 <tr>
-<td><a id="twophase-sim"></a>28</td>
-<td>Two-Phase Simplex<br><a href="https://pubino.github.io/twophase-sim/">Run in browser</a></td>
+<td><a id="twophase-sim"></a><a href="https://pubino.github.io/twophase-sim/">Two-Phase Simplex</a></td>
 <td>Animated linear programming simplex algorithm solver</td>
-<td><code>twophase_animate/</code></td>
-<td><a href="https://github.com/pubino/twophase-sim"><code>twophase-sim</code></a></td>
-<td><a href="https://github.com/pubino/twophase-sim/archive/refs/heads/main.zip">zip</a></td>
+<td><a href="https://github.com/pubino/twophase-sim">Project page</a><br><a href="https://github.com/pubino/twophase-sim/archive/refs/heads/main.zip">Source ZIP</a></td>
 </tr>
 </tbody></table>
 
