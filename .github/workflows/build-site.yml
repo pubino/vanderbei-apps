@@ -5,6 +5,7 @@ on:
     paths:
       - 'README.md'
       - 'apps.css'
+      - 'tests/catalog.test.cjs'
   workflow_dispatch:
 
 permissions:
@@ -63,13 +64,16 @@ jobs:
           fs.writeFileSync('index.html', html);
           EOF
 
+      - name: Test the generated catalog
+        run: docker run --rm --volume "$GITHUB_WORKSPACE:/catalog:ro" --workdir /catalog node:22.22.0-bookworm-slim node --test tests/catalog.test.cjs
+
       - name: Check for changes
         id: changes
         run: |
           if git diff --quiet index.html 2>/dev/null; then
-            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           else
-            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Commit and push
